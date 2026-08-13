@@ -1,0 +1,12 @@
+{
+  "forecast_start": "2017-12-31 00:00:00",
+  "forecast_end": "2017-12-31 23:50:00",
+  "average_demand": 23821.98641628689,
+  "minimum_demand": 16138.7412109375,
+  "maximum_demand": 38080.6875,
+  "peak_time": "2017-12-31 20:00:00",
+  "risk_distribution": {
+    "NORMAL": 118,
+    "MODERATE": 26
+  }
+}

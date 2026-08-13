@@ -1,0 +1,45 @@
+{
+  "last_observation": "2017-12-30 23:50:00",
+  "forecast_horizon": "next 10-minute interval",
+  "predicted_demand": 26328.380859375,
+  "risk_level": "NORMAL",
+  "weather": {
+    "status": "Cold",
+    "reasons": [
+      "Temperature increased the forecast (+0.0130).",
+      "GeneralDiffuseFlows reduced the forecast (-0.0051).",
+      "DiffuseFlows reduced the forecast (-0.0043)."
+    ]
+  },
+  "calendar": {
+    "status": "Weekend",
+    "reasons": [
+      "HourCos reduced the forecast (-0.0442).",
+      "MonthCos reduced the forecast (-0.0225).",
+      "HourSin reduced the forecast (-0.0169)."
+    ]
+  },
+  "top_factors": [
+    [
+      "HourCos",
+      -0.04417059546562996
+    ],
+    [
+      "PowerConsumption_Zone1",
+      -0.043706852755178716
+    ],
+    [
+      "Zone1Lag1",
+      -0.02955856014690994
+    ],
+    [
+      "Zone1RollingMean144",
+      0.0229727557919297
+    ],
+    [
+      "MonthCos",
+      -0.022515337274057856
+    ]
+  ],
+  "explanation": "Predicted electricity demand is 26,328.38 units. Demand risk is NORMAL. Weather status is Cold and calendar status is Weekend. Most influential factors are HourCos (-0.0442); PowerConsumption_Zone1 (-0.0437); Zone1Lag1 (-0.0296); Zone1RollingMean144 (+0.0230); MonthCos (-0.0225)."
+}

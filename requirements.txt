@@ -1,0 +1,13 @@
+streamlit
+plotly
+tensorflow
+pandas
+numpy
+scikit-learn
+joblib
+pyarrow
+shap
+holidays
+langgraph
+google-genai
+python-dotenv
