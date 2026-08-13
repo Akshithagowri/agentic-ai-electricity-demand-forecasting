@@ -135,7 +135,8 @@ if missing_files:
 def load_model_and_scalers():
 
     model = tf.keras.models.load_model(
-        MODEL_PATH
+        MODEL_PATH,
+        compile=False
     )
 
     feature_scaler = joblib.load(
